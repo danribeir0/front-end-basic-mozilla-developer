@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/fonte.css">
-    <link rel="stylesheet" href="css/nav-head.css">
+    <link rel="stylesheet" href="./css/fonte.css">
+    <link rel="stylesheet" href="./css/nav-head.css">
+    <link rel="stylesheet" href="./css/section-article.css">
 
     <title>Aprendendo Front-End com MDN</title>
 </head>
+
 <body>
     <ul class="container ul-none">
         <li class="content">
@@ -22,22 +25,41 @@
             </h1>
         </li>
         <li class="content">
-            <a class="text-decoration-none" href="./04-attributes.html">Próximo &gt;</a>
+            <a class="text-decoration-none" href="./05-some-elements.html">Próximo &gt;</a>
         </li>
     </ul>
-    
 
-    ### Atributos
-Elementos também podem ter atributos, que parecem assim:
+    <section>
+        <h3>Atributos</h3>
 
-![](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics/gato-rabujento-atributo-pequeno.png)
+        Elementos também podem ter atributos, que parecem assim:
 
-Atributos contém informação extra sobre o elemento que você não quer que apareça no conteúdo real. Aqui, class é o nome do atributo e editor-note é o valor do atributo. O atributo class permite que você forneça ao elemento um identificador que possa ser usado posteriormente para aplicar ao elemento informações de estilo e outras coisas.
+        <img id="attribute"
+            src="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics/gato-rabujento-atributo-pequeno.png"
+            alt="elemento &lt;p&gt; html com atributo class">
 
-Um atributo sempre deve ter:
+        Atributos contém informação extra sobre o elemento que você não quer que apareça no conteúdo real.
+        <br><br>
+        Aqui, <b>class</b> é o nome do atributo e <b>editor-note</b> é o valor do atributo.
+        <br><br>
+        O atributo <b>class</b> permite que você forneça ao elemento um identificador que possa ser usado posteriormente
+        para aplicar ao elemento informações de estilo e outras coisas.
+        <br><br>
+        Um atributo sempre deve ter:
+        <br>
+        <ol>
+            <li>
+                Um espaço entre ele e o nome do elemento (ou o atributo anterior, se o elemento já tiver um).
+            </li>
+            <li>
+                O nome do atributo, seguido por um sinal de igual.
+            </li>
+            <li>
+                Aspas de abertura e fechamento, envolvendo todo o valor do atributo.
+            </li>
+        </ol>
 
-1. Um espaço entre ele e o nome do elemento (ou o atributo anterior, se o elemento já tiver um).
-2. O nome do atributo, seguido por um sinal de igual.
-3. Aspas de abertura e fechamento, envolvendo todo o valor do atributo.
+    </section>
 </body>
+
 </html>

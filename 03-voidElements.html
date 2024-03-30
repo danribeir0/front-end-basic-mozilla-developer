@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/fonte.css">
     <link rel="stylesheet" href="./css/nav-head.css">
+    <link rel="stylesheet" href="./css/section-article.css">
 
     <title>Aprendendo Front-End com MDN</title>
 </head>
@@ -32,13 +33,15 @@
         temos na nossa página HTML:
         <br>
         <br>
-        &lt;img src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png" alt="Logo do navegador Firefox - Raposa em chamas envolvendo o plenta Terra" /&gt;
+        <div class="gray-box">
+            &lt;img src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png" alt="Logo do navegador Firefox - Raposa em chamas envolvendo o plenta Terra" /&gt;
+        </div>
         <br>
         <br>
-        Ele contém dois atributos, mas não há tag &lt;img&gt; de fechamento, e não há conteúdo interno. Isso acontece
-        porque um elemento de imagem não envolve conteúdo para ter efeito em si mesmo. Sua proposta é incorporar uma
-        imagem na página HTML no lugar que o código aparece.
+        Ele contém dois atributos, mas não há tag &lt;/img&gt; de fechamento, e não há conteúdo interno. Isso acontece porque um elemento de imagem não envolve conteúdo para ter efeito em si mesmo. Sua proposta é incorporar uma imagem na página HTML no lugar que o código aparece.
+
     </section>
+    <img id="logo-firefox" src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png" alt="Logo do navegador Firefox - Raposa em chamas envolvendo o plenta Terra">
 </body>
 
 </html>

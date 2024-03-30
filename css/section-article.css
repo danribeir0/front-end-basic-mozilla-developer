@@ -17,3 +17,20 @@
 .content-p {
     margin-left: 30px;
 }
+
+.gray-box {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    background-color: #dddddd91;
+    border: 1px solid #a5a5a5;
+}
+
+#logo-firefox {
+    display: block;
+    margin: 30px auto;
+}
+
+#attribute {
+    width: 100%;
+    margin: 30px 0;
+}
