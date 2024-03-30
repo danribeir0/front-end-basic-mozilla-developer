@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/fonte.css">
+    <link rel="stylesheet" href="./css/nav-head.css">
+    <link rel="stylesheet" href="./css/section-article.css">
+
+    <title>Aprendendo Front-End com MDN</title>
+</head>
+
+<body style="margin: 2% 10%;">
+    <ul class="container ul-none">
+        <li class="content">
+            <a class="text-decoration-none" href="./index.html">&lt; Anterior</a>
+        </li>
+        <li>
+            <h1 class="content">
+                <a class="text-decoration-none" href="./index.html">
+                    Aprendendo Front-End com MDN
+                </a>
+            </h1>
+        </li>
+        <li class="content">
+            <a class="text-decoration-none" href="./03-voidElements.html">Próximo &gt;</a>
+        </li>
+    </ul>
+    <p>
+    <h3>Elementos em bloco versus elementos inline</h3>
+    <section class="container-junto">
+        <article class="content-start">
+            <p class="title-p">HTML</p>
+            <p class="content-p">
+                &lt;em&gt;primeiro&lt;/em&gt; <br>
+                &lt;em&gt;segundo&lt;/em&gt; <br>
+                &lt;em&gt;terceiro&lt;/em&gt; <br>
+                <br>
+                &lt;p&gt;quarto&lt;/p&gt; <br>
+                &lt;p&gt;quinto&lt;/p&gt; <br>
+                &lt;p&gt;sexto&lt;/p&gt;
+            </p>
+        </article>
+        <article class="content-start">
+                <p class="title-p">Saída:</p>
+                <div class="content-p">
+                    <em>primeiro</em>
+                    <em>segundo</em>
+                    <em>terceiro</em>
+
+                <p>quarto</p>
+                <p>quinto</p>
+                <p>sexto</p>
+                </div>
+        </article>
+        <article>
+            <p>
+                O elemento &lt;em&gt; é inline, então como você pode ver ao lado, os três primeiros elementos ficam na mesma linha uns dos outros sem espaço entre eles.
+            </p>
+            <p>
+                O &lt;p&gt;, por outro lado, é um elemento em bloco, então cada elemento aparece em uma nova linha, com espaço acima e abaixo de cada um (o espaçamento é devido à estilização CSS padrão que o browser aplica aos parágrafos).
+            </p>
+        </article>
+    </section>
+
+</body>
+
+</html>

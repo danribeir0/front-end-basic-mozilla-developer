@@ -6,9 +6,11 @@ body {
     display: grid;
     grid-template-columns: 1fr 10fr 1fr;
     align-items: center;
+    border-bottom: 1px solid #a5a5a5;
 }
 
 .content {
+    padding-bottom: 2%;
     text-align: center;
 }
 
